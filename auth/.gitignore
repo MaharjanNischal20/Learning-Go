@@ -1,0 +1,60 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Build output
+/bin/
+/build/
+/dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency/vendor directory (uncomment if you don't commit vendor)
+/vendor/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage.out
+coverage.html
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Air live reload
+.air.toml
+
+# Go build cache
+.gocache/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
